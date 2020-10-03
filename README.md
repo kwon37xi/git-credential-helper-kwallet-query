@@ -14,7 +14,7 @@ sudo apt install kwalletcli
 ```
 sudo wget -O /usr/local/bin/git-credential-kwalletcli \
     "https://raw.githubusercontent.com/kwon37xi/git-credential-helper-kwalletcli/main/git-credential-kwalletcli" \
-    && sudo chmod 0755 /usr/local/bin/git-credential-helper-kwalletcli
+    && sudo chmod 0755 /usr/local/bin/git-credential-kwalletcli
 
 # for your local user
 git config --global credential.helper kwalletcli
