@@ -1,6 +1,6 @@
-# git-credential-helper-kwalletcli
+# git-credential-kwalletcli
 
-git-credential-helper for KWallet5 with kwalletcli command.
+git credential helper for KWallet5 with kwalletcli command.
 
 ## Requirements
 * [MirBSD: kwalletcli — CLI for the KDE Wallet](http://www.mirbsd.org/kwalletcli.htm)
@@ -13,7 +13,7 @@ sudo apt install kwalletcli
 ## Installation
 ```
 sudo wget -O /usr/local/bin/git-credential-kwalletcli \
-    "https://raw.githubusercontent.com/kwon37xi/git-credential-helper-kwalletcli/main/git-credential-kwalletcli" \
+    "https://raw.githubusercontent.com/kwon37xi/git-credential-kwalletcli/main/git-credential-kwalletcli" \
     && sudo chmod 0755 /usr/local/bin/git-credential-kwalletcli
 
 # for your local user
