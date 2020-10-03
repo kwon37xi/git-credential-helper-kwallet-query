@@ -18,6 +18,8 @@ sudo wget -O /usr/local/bin/git-credential-kwalletcli \
 
 # for your local user
 git config --global credential.helper kwalletcli
+# or
+git config --global credential.helper "/usr/local/bin/git-credential-kwalletcli"
 ```
 
 ## References
