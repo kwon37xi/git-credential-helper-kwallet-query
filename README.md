@@ -1,6 +1,6 @@
 # git-credential-kwalletcli
 
-git credential helper for KWallet5 with kwalletcli command.
+git credential helper for KWallet5 with `kwalletcli` command.
 
 ## Requirements
 * [MirBSD: kwalletcli — CLI for the KDE Wallet](http://www.mirbsd.org/kwalletcli.htm)
