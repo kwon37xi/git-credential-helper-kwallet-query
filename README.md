@@ -10,6 +10,13 @@ git-credential-helper for KWallet5 with kwalletcli command.
 sudo apt install kwalletcli
 ```
 
+## Installation
+```
+sudo wget -O /usr/local/bin/git-credential-kwalletcli https://raw.githubusercontent.com/kwon37xi/git-credential-helper-kwalletcli/main/git-credential-kwalletcli && sudo chmod 0755 /usr/local/bin/git-credential-helper-kwalletcli
+
+git config --global credential.helper kwalletcli
+```
+gh repo clone kwon37xi/git-credential-helper-kwalletcli
 ## References
 * [Git - Credential 저장소](https://git-scm.com/book/ko/v2/Git-%EB%8F%84%EA%B5%AC-Credential-%EC%A0%80%EC%9E%A5%EC%86%8C)
 * [Templar-von-Midgard/git-credential-kwallet: Git credential helper for KWallet](https://github.com/Templar-von-Midgard/git-credential-kwallet)
